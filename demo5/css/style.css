@@ -40,7 +40,7 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #08ef61;
      font-size: 14px;
      font-family:Poppins;
      line-height: 1.80857;
@@ -157,6 +157,7 @@ a,
 img {
      max-width: 100%;
      height: auto;
+     border-radius: 20px;
 }
 
  :focus {
@@ -310,7 +311,7 @@ button {
     float: left;
     font-size: 100px;
     color: #090808;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 }
 .there_text {
@@ -335,7 +336,7 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ffb607;
+    background-color: #f30853;
     text-align: center;
     padding: 10px 0px;
     border-radius: 5px;
@@ -440,7 +441,7 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ffb607;
+    background-color: #07ffff;
     text-align: center;
     padding: 10px 0px;
     border-radius: 5px;
@@ -453,7 +454,7 @@ button {
 .about_section{
     width: 100%;
     float: left;
-    background-color: #ffb607;
+    background-color: #ff3907;
     height: auto;
     padding-bottom: 90px;
 }
@@ -464,7 +465,7 @@ button {
 
 .about_text {
     width: 100%;
-    float: left;
+    float: right;
     font-size: 40px;
     color: #ffffff;
     text-transform: uppercase;
@@ -472,7 +473,7 @@ button {
 }
 .lorem_text {
     width: 100%;
-    float: left;
+    float: right;
     font-size: 16px;
     color: #ffffff;
     margin-left: 0px;
@@ -579,7 +580,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #fabb25;
+    color: #4e4c47;
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 35px;
@@ -604,7 +605,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 36px;
-    color: #ffffff;
+    color: #d60606;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -672,6 +673,7 @@ a:hover {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 20px;
 }
 
 .middle {
@@ -837,8 +839,8 @@ a:hover {
     padding-bottom: 90px;
 }
 .mail_sectin{
-    width: 100%;
-    float: left;
+    width: 50%;
+    float: right;
 }
 .contact_text{
     width: 100%;
@@ -882,7 +884,7 @@ textarea#comment::placeholder {
     width: 30%;
     float: left;
     font-size: 20px;
-    color: #989696;
+    color: #000000;
     text-align: center;
     border: 2px solid #ffffff;
     padding: 10px 0px;
@@ -940,12 +942,6 @@ textarea#comment::placeholder {
     background: transparent !important;
     border-bottom: 1px solid #ffff;
 }
-
-
-
-
-
-
 .footer_section{
     width: 100%;
     float: left;
@@ -1017,7 +1013,9 @@ textarea#comment::placeholder {
 .copyright_text a:hover{
     color: #fdbe28;
 }
-
+.information {
+    padding-left: 250px;
+}
 
 
 
